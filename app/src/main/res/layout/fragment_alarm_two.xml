@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F6F6"
+    tools:context=".alarmOnFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/saturdy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Saturday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+            <Button
+                android:id="@+id/Sunday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Sunday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#364F6B" />
+
+            <Button
+                android:id="@+id/Monday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Monday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+            <Button
+                android:id="@+id/Tuesday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Tuesday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+            <Button
+                android:id="@+id/Wednesday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Wednesday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+            <Button
+                android:id="@+id/Thursday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Thursday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+            <Button
+                android:id="@+id/Friday2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wekbak"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Friday"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#A49A9A" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sandayR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="2dp"
+
+        android:clipToPadding="false">
+
+    </android.support.v7.widget.RecyclerView>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/add_sunday"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/add"
+
+            android:src="@drawable/ic_baseline_add_24"
+            android:backgroundTintMode="multiply"
+            ></android.support.design.widget.FloatingActionButton>
+    </FrameLayout>
+
+
+</LinearLayout>

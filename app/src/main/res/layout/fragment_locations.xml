@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context=".locationsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ir.map.sdk_map.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraZoomMax="20"
+        mapbox:mapbox_cameraZoomMin="1" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/add_locations"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/add"
+        android:layout_marginBottom="10dp"
+
+        android:src="@drawable/ic_baseline_add_24"
+        android:backgroundTintMode="multiply"
+        ></android.support.design.widget.FloatingActionButton>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/cart_liner_1_6"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:alpha="0"
+        android:background="@drawable/cart1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/cart_liner_1_2"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_about_location_6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:fontFamily="@font/adamina"
+                android:text="Title"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
